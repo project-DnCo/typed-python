@@ -1,3 +1,4 @@
+from collections import namedtuple
 from dataclasses import dataclass
 import datetime
 
@@ -41,3 +42,7 @@ def plus_two(num: int):
 
 
 print(plus_two(5))
+
+
+Car = namedtuple('Car', 'A B')
+car = Car(A=4, B=5)
