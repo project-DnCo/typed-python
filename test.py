@@ -41,7 +41,7 @@ def plus_two(num: int):
     return num + 2
 
 
-print(plus_two(5))
+print(plus_two('5'))
 
 
 Car = namedtuple('Car', 'A B')
