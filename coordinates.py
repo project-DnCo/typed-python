@@ -2,7 +2,7 @@ import subprocess
 from typing import NamedTuple, Literal, TypedDict
 from dataclasses import dataclass
 
-from pympler import asizeof
+# from pympler import asizeof
 
 from exceptions import CantGetCoordinates
 import config
